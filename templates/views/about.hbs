@@ -12,8 +12,17 @@
 <body>
     <div class="main-content">
         {{>header}}
-        <input type="color">
-        <img class="portrait" src="/img/owl.jpg">
+        <p class="about-text">
+            This app was made using Node.js.<br>
+            The user submits the name of a location<br>
+            and the coordinates are fetched<br>
+            from the mapbox api. The coordinates<br>
+            are then use to fetch the weather from<br>
+            the darksky api.<br><br>
+
+            Modules used in this project:<br>
+            Express.js, hbs, Request and Path
+        </p>
     </div>
     {{>footer}}
 </body>

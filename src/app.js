@@ -23,14 +23,14 @@ app.use(express.static(publicPath));
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Rain Drop',
+        title: 'Rain Drop App',
         name: 'Diego Ramirez'
     });
 });
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About Me',
+        title: 'About this Project',
         name: 'Diego Ramirez'
     });
 });
